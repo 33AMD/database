@@ -62,7 +62,15 @@
 					text-transform: uppercase;
 					letter-spacing: -1px;
 					color: white;
+					transition-duration: 0.5s;
 				}
+
+				li.item-menu:hover{
+					color: black;
+					background-color: white;
+				}
+
+
 
 				section#body{
 					border: 1px dashed #d6d6d6;
