@@ -1,4 +1,4 @@
-*{
+				*{
 					margin: 0px;
 					padding: 0px;
 				}
@@ -8,6 +8,11 @@
 					text-decoration: none;
 					color: white;
 					margin: 0px;
+				}
+
+				a:hover{
+					color: #000;
+					background-color: #fff;
 				}
 
 				p{
@@ -61,15 +66,7 @@
 					font: bold 11px 'Open Sans';
 					text-transform: uppercase;
 					letter-spacing: -1px;
-					color: white;
-					transition-duration: 0.5s;
 				}
-
-				li.item-menu:hover{
-					color: black;
-					background-color: white;
-				}
-
 
 
 				section#body{
