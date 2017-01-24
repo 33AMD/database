@@ -1,0 +1,96 @@
+  *{
+          margin: 0px;
+          padding: 0px;
+        }
+
+        a{
+          list-style: none;
+          text-decoration: none;
+          color: white;
+          margin: 0px;
+          transition-duration: 0.5s;
+        }
+
+        a:hover{
+          background-color: #fff;
+          color: #000
+        }
+
+        p{
+          margin-top: 10px;
+          font: bold 15px 'Open Sans';
+          letter-spacing: -1px;
+          color: #1c1c1c;
+          line-height: 20px;
+        }
+
+        p.p{
+          font: bold 20px 'Open Sans';
+          color: #2a2a2a;
+        }
+
+        h2{
+          font: bold 25px 'Open Sans';
+          margin-top: 5px;
+          color: #ff0054;
+        }
+
+        ul{
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          height: 25px; 
+          text-align: center;
+          margin: 0px;
+          background-color: #000000;
+        }
+
+        div#menu{
+          margin: 0 auto;
+          width: 600px;
+          height: auto;
+          background-color: white;
+          text-align: center;
+        }
+
+        div.div-product{
+          margin-top: 5px;
+          width: 142px;
+          height: auto;
+          background-color: white;
+          text-align: center;
+        }
+
+        li.item-menu{
+          margin: 4px 5px 0px 5px; 
+          list-style: none;
+          font: bold 11px 'Open Sans';
+          text-transform: uppercase;
+          letter-spacing: -1px;
+        }
+
+        section#body{
+          border: 1px dashed #d6d6d6;
+          margin: 0 auto;
+          width: 600px;
+          height: auto;
+          padding-bottom: 10px;
+        }
+
+        section#banner{
+          width: 100%;
+          height: 300px;
+        }
+
+        section#produtos{
+          width: 100%;  
+          display: flex;
+          justify-content: space-around;
+        }
+
+        a.botao{
+          padding: 5px 10px 5px 10px;
+          font: bold 15px 'Open Sans';
+          background-color: #ff0054;
+          color: white;
+        }
