@@ -4,37 +4,16 @@
         }
 
         a{
-          font: lighter 13px 'Open Sans';
-          color: #1c1c1c;
-          text-decoration: none;
-        }
-        a:hover{
-          color: #cd4236;
-        }
-        a:link{
-          font: lighter 13px 'Open Sans';
-          color: #1c1c1c;
-        }
-        a:visited{ 
-          font: lighter 13px 'Open Sans';
-          color: #1c1c1c;
-        }
-        a:active{
-          font: lighter 13px 'Open Sans';
-          color: #1c1c1c;
-        }
-
-
-        a.btn{
           list-style: none;
           text-decoration: none;
           color: white;
           margin: 0px;
           transition-duration: 0.5s;
           cursor: pointer;
+          font: lighter 13px 'Open Sans';
         }
 
-        a.btn:hover{
+        a:hover{
           background-color: #fff;
           color: #000
         }
@@ -98,7 +77,6 @@
           width: 600px;
           height: auto;
           padding-bottom: 10px;
-          text-align: center;
         }
 
         section#banner{
@@ -118,3 +96,9 @@
           background-color: #ff0054;
           color: white;
         }
+
+        div.foot{
+          background-color: rgba(0,0,0,0.5);
+          width: 600px; 
+        }
+
