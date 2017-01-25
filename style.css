@@ -4,22 +4,23 @@
         }
 
         a{
-          font: lighter 15px 'Open Sans';
+          font: lighter 13px 'Open Sans';
           color: #1c1c1c;
+          text-decoration: none;
         }
         a:hover{
           color: #cd4236;
         }
         a:link{
-          font: lighter 15px 'Open Sans';
+          font: lighter 13px 'Open Sans';
           color: #1c1c1c;
         }
         a:visited{ 
-          font: lighter 15px 'Open Sans';
+          font: lighter 13px 'Open Sans';
           color: #1c1c1c;
         }
         a:active{
-          font: lighter 15px 'Open Sans';
+          font: lighter 13px 'Open Sans';
           color: #1c1c1c;
         }
 
