@@ -5,12 +5,24 @@
 
         a{
           font: lighter 15px 'Open Sans';
-          color: #1c1c1c
+          color: #1c1c1c;
         }
-
         a:hover{
           color: #cd4236;
         }
+        a:link{
+          font: lighter 15px 'Open Sans';
+          color: #1c1c1c;
+        }
+        a:visited{ 
+          font: lighter 15px 'Open Sans';
+          color: #1c1c1c;
+        }
+        a:active{
+          font: lighter 15px 'Open Sans';
+          color: #1c1c1c;
+        }
+
 
         a.btn{
           list-style: none;
@@ -85,6 +97,7 @@
           width: 600px;
           height: auto;
           padding-bottom: 10px;
+          text-align: center;
         }
 
         section#banner{
