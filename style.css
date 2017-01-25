@@ -4,6 +4,15 @@
         }
 
         a{
+          font: lighter 15px 'Open Sans';
+          color: #1c1c1c
+        }
+
+        a:hover{
+          color: #cd4236;
+        }
+
+        a.btn{
           list-style: none;
           text-decoration: none;
           color: white;
@@ -12,7 +21,7 @@
           cursor: pointer;
         }
 
-        a:hover{
+        a.btn:hover{
           background-color: #fff;
           color: #000
         }
