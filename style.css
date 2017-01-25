@@ -1,4 +1,4 @@
-  *{
+        *{
           margin: 0px;
           padding: 0px;
         }
@@ -6,17 +6,11 @@
         a{
           list-style: none;
           text-decoration: none;
-          color: white;
-          margin: 0px;
+          color: black;
           transition-duration: 0.5s;
           cursor: pointer;
-          font: lighter 13px 'Open Sans';
         }
 
-        a:hover{
-          background-color: #fff;
-          color: #000
-        }
 
         p{
           margin-top: 10px;
@@ -97,8 +91,6 @@
           color: white;
         }
 
-        div.foot{
-          background-color: rgba(0,0,0,0.5);
-          width: 600px; 
+        a.botao:hover{
+          background-color: #ae323b;
         }
-
