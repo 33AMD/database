@@ -1,0 +1,260 @@
+/*Gerais*/
+*, td{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;	
+}
+
+td:hover{
+	border-bottom: 2px solid #217acf;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+}
+
+/*Header*/
+header#header{
+	width: 100%;
+	height: auto;
+}
+div.topbar{
+	width: 100%;
+	height: 37px;
+	background-color: #eeeeee;
+}
+div.logobar{
+	width: 50%;
+	height: auto;
+	margin: 10px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+	display: flex;
+}
+img.logo{
+	width: 75px;
+	height: 75px;	
+}
+div.sociais{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	-webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+div.Line{
+	width: 100%;
+	height: 3px;
+	background-color: #bbbbbb;
+}
+table.menu{
+	width: 50%;
+	height: 50px;
+	margin: 0px auto;
+}
+
+a.menu-item{	
+	font: lighter 12px 'Open Sans', sans-serif;
+	color: #2a2a2a;	
+	text-transform: uppercase;
+	text-decoration: none;	
+}
+
+a.menu-item:hover{
+	color: #217acf;	
+}
+
+div.sociais img{
+	margin-left: 5px;
+}
+
+/*Section 1*/
+section#section1{
+	width: 100%;
+	height: auto;
+}
+
+div.banner{
+	width: 50%;
+	height: 500px;
+	background-color: lightblue;
+	margin: 0px auto;
+}
+
+
+/*Produtos*/
+section#products{
+	width: 100%;
+	height: auto;
+}
+
+div#produtos{
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	text-align: center;
+}
+
+div.div-produtos{
+	padding: 10px 40px;
+	width: 33%;
+	height: auto;
+}
+
+div.div-produtos img{
+	width: 400px;
+	height: 400px;
+}
+
+div.div-produtos h1{
+	font: normal 20px 'Nunito', sans-serif;
+	color: #2a2a2a;	
+	width: 65%;
+	min-height: 150px;
+	margin: 10px auto;
+}
+
+div.div-produtos h3{
+	font: bolder 15px 'Nunito', sans-serif;
+	color: #2a2a2a;	
+	width: 50%;
+	margin: 5px auto;
+}
+
+div.div-produtos h2{
+	font: bolder 33px 'Nunito', sans-serif;
+	color: #2a2a2a;
+	margin: 0px auto;
+}
+
+div.div-produtos h2 span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+a.btn{
+	width: 150px;
+	font: normal 15px 'Nunito', sans-serif;
+	color: #D74138;
+	padding: 8px 20px;
+	text-decoration: none;
+	border: 2px solid #D74138;
+	margin: 30px auto;
+	display: block;
+	text-transform: uppercase;
+	transition-duration: 0.5s;
+	border-radius: 10px;	
+}
+
+a.btn:hover{
+	border: 2px solid #217acf;
+	color: #217acf;
+}
+
+div#produtos a{
+	text-decoration: none;
+}
+
+
+/*Destaques*/
+table#destaques{
+	width: 50%;
+	height: 500px;
+	margin: 30px auto;
+	background-color: yellow;
+}
+
+
+
+
+/*Footer*/
+footer#footer{
+	width: 100%;
+	height: 500px;
+	background-color: #217acf;
+	z-index: -1px;
+}
+
+div.div-footer{
+	width: 50%;
+	height: auto;
+	margin: 0px auto;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.div-footer ul{
+	display: inline-block;
+
+}
+
+div.div-footer h1{
+	font: bold 14px 'Nunito', sans-serif;
+	color: #ffffff;
+	text-align: left;
+}
+
+div.div-footer a{
+	display: block;
+	font: normal 10px 'Nunito', sans-serif;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+}
+
+div.div-footer a:hover{
+	text-decoration: underline;
+}
+
+div.float{
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+div.line2{
+	width: 100%;
+	margin-top: 5px;
+	border-top: 1px dashed #ffffff; 
+}
+
+input.form{
+	display: block;
+	width: 200px;
+	height: 30px;
+}
+
+/*Página de Produto*/
+section#sec-produtos{
+	
+}
+
