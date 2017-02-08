@@ -80,6 +80,45 @@ div.sociais img{
 	margin-left: 5px;
 }
 
+fieldset.busca{
+	width: 35%;
+	height: auto;
+	border: none;
+}
+
+.busca .fulltext-search-box{
+	font: normal 12px 'Nunito', sans-serif;
+	display: block;
+	padding: 8px auto;
+}
+
+.busca #ftIdx4cca08ae87fb4b4c889297f374041609, legend{
+	display: none;
+
+}.busca label{
+	font: bold 15px 'Nunito', sans-serif;
+}
+
+.busca .btn-buscar{
+	width: 100px;
+	font: normal 15px 'Nunito', sans-serif;
+	color: #D74138;
+	padding: 8px 20px;
+	text-decoration: none;
+	border: 2px solid #D74138;
+	display: block;
+	text-transform: uppercase;
+	transition-duration: 0.5s;
+	border-radius: 10px;
+	background-color: #FFFFFF;	
+}
+
+.busca .btn-buscar:hover{
+	border: 2px solid #217acf;
+	color: #217acf;
+}
+
+
 /*Section 1*/
 section#section1{
 	width: 100%;
@@ -170,6 +209,7 @@ a.btn:hover{
 div#produtos a{
 	text-decoration: none;
 }
+
 
 
 /*Destaques*/
