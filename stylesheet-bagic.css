@@ -88,11 +88,11 @@ fieldset.busca{
 
 .busca .fulltext-search-box{
 	font: normal 12px 'Nunito', sans-serif;
-	display: block;
+	display: inline-block;
 	padding: 8px auto;
 }
 
-.busca #ftIdx4cca08ae87fb4b4c889297f374041609, legend{
+fieldset.busca select, legend{
 	display: none;
 
 }.busca label{
@@ -106,7 +106,7 @@ fieldset.busca{
 	padding: 8px 20px;
 	text-decoration: none;
 	border: 2px solid #D74138;
-	display: block;
+	display: inline-block;
 	text-transform: uppercase;
 	transition-duration: 0.5s;
 	border-radius: 10px;
@@ -139,7 +139,7 @@ section#products{
 	height: auto;
 }
 
-div#produtos{
+div#hproduct{
 	width: 100%;
 	height: auto;
 	margin: 50px auto;
@@ -156,12 +156,12 @@ div.div-produtos{
 	height: auto;
 }
 
-div.div-produtos img{
+div.hpproduct .productImage{
 	width: 400px;
 	height: 400px;
 }
 
-div.div-produtos h1{
+div.hpproduct .productName{
 	font: normal 20px 'Nunito', sans-serif;
 	color: #2a2a2a;	
 	width: 65%;
@@ -169,14 +169,14 @@ div.div-produtos h1{
 	margin: 10px auto;
 }
 
-div.div-produtos h3{
+div.hpproduct .oldPrice{
 	font: bolder 15px 'Nunito', sans-serif;
 	color: #2a2a2a;	
 	width: 50%;
 	margin: 5px auto;
 }
 
-div.div-produtos h2{
+div.hpproduct .newPrice .bestPrice{
 	font: bolder 33px 'Nunito', sans-serif;
 	color: #2a2a2a;
 	margin: 0px auto;
@@ -298,3 +298,81 @@ section#sec-produtos{
 	
 }
 
+/*Prateleira de produtos*/
+
+
+section#products{
+	width: 100%;
+	height: auto;
+}
+
+div#produtos{
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	text-align: center;
+}
+
+div.div-produtos{
+	padding: 10px 40px;
+	width: 33%;
+	height: auto;
+}
+
+div.div-produtos img{
+	width: 400px;
+	height: 400px;
+}
+
+div.div-produtos h1{
+	font: normal 20px 'Nunito', sans-serif;
+	color: #2a2a2a;	
+	width: 65%;
+	min-height: 150px;
+	margin: 10px auto;
+}
+
+div.div-produtos h3{
+	font: bolder 15px 'Nunito', sans-serif;
+	color: #2a2a2a;	
+	width: 50%;
+	margin: 5px auto;
+}
+
+div.div-produtos h2{
+	font: bolder 33px 'Nunito', sans-serif;
+	color: #2a2a2a;
+	margin: 0px auto;
+}
+
+div.div-produtos h2 span{
+	font-size: 20px;
+	margin-right: 10px;
+}
+
+a.btn{
+	width: 150px;
+	font: normal 15px 'Nunito', sans-serif;
+	color: #D74138;
+	padding: 8px 20px;
+	text-decoration: none;
+	border: 2px solid #D74138;
+	margin: 30px auto;
+	display: block;
+	text-transform: uppercase;
+	transition-duration: 0.5s;
+	border-radius: 10px;	
+}
+
+a.btn:hover{
+	border: 2px solid #217acf;
+	color: #217acf;
+}
+
+div#produtos a{
+	text-decoration: none;
+}
