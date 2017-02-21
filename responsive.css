@@ -1,125 +1,692 @@
-@media (max-width: 350px) {
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-    /** HEADER **/
-    .topbar {
-        width: 100%;
-        min-height: 100px;
-        background-color: #ffffff;
-        box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
-    }
-    .wrapper {
-        min-width: 100%;
-        margin: 0px;
-        flex-direction: column;
-        text-align: center;
-    }
-    img.logo {
-        width: 90px;
-        height: 89px;
-        margin-top: 15px;
-        margin-left: 15px;
-    }
-    .welcome {
-        color: red;
-    }
-    .sidebar {
-        display: none;
-    }
-    /*  Barra Azul  */
-    div.infoBar {
-        background: url('/arquivos/infobar-bg.jpg') #0772ca repeat-x;
-        width: 100%;
-        height: auto;
-        line-height: 125px;
-        color: #fff;
-        margin-bottom: 0px;
-        padding-bottom: 15px;
-        padding-top: 15px;
-    }
-    ul.float {
-        width: 100%;
-        flex-direction: column;
-        background-color: red;
-        text-align: center;
-        align-items: center;
-    }
-    .infoBar li.seguro {
-        padding-left: 0px;
-    }
-    .infobar li.sjuros {
-        padding-left: 0px;
-    }
-    div#mainContent {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-        background-color: red;
-        align-items: center;
-    }
-    .destaqueNav .text {
-        max-width: 100%;
-        background-color: green;
-        margin: 0 auto;
-        padding: 0px;
-        vertical-align: none;
-        display: block;
-    }
-    div.destaqueNav {
-        max-width: 100%;
-        background-color: yellow;
-        border: none;
-        text-align: center;
+@media (max-width: 650px){
+
+	/*Header*/
+	div.productInfo .topo h1 div{
+		width: 90%;
+		margin: 0px auto;
+		font-size: 28px;
+		text-align: center;
+	}
+
+	div#all .wrapper{
+		 display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+	}
+
+	.menu-departamento{
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+	}
+
+	div#mainContent #produto{
+		width: 100%;
+	}
+
+	div#mainContent .productInfo{
+		width: 100%;
+	}
+
+	div.productInfo .topo h1{
+		
+	}
+
+	.freteCalc{
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		display: block;
+		overflow: hidden;	
+	}
+
+	#ctl00_Conteudo_upnlContent,
+	.header,
+	.contentWrapper{
+		width: 100%;
+		padding: 20px 0px;
+		margin: 0px auto; 
+	}	
+
+	div.prateleira ul li{
+		width: 90%;
+	}
+
+	.navbar .menu-departamento{
+		width: 100%;
+		background-color: green;
+	}
+
+	/*Banner*/
+	#resenha,
+	.comments,
+	.social,
+	div#caracteristicas br,
+	.bannerTv, .infoBar,
+	.marcasHome,
+	#sidebar,
+	.group .Especificacoes-do-produto{
+		display: none;
+	}
+
+
+	#topFooter{
+		display: none;
+	}
+
+	div#mainContent, #footer .newsletter{
+		width: 100%;
+		display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: start;
+	  -webkit-justify-content: flex-start;
+	  -ms-flex-pack: start;
+	  justify-content: flex-start;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	}
+
+	#footer .newsletter > fieldset p{
+		display: none;
+	}
+
+	#footer .newsletter h3{
+		font-size: 20px;
+	}
+
+	#footer .newsletter > fieldset{
+		display: inline-block;
+		width: 50%;
+		margin: 25px auto;
+		padding: 0px;
+	}
+
+	#footer .wrapper{
+		width: 90%;
+		margin: 0px auto;
+	}
+
+	#footer .box.links ul{
+		height: 15em;
+	}
+
+	#footer .box.links{
+		margin: 20px auto;
+	}
+
+	#footer .infos{
+		width: 90%;
+		display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: start;
+	  -webkit-justify-content: flex-start;
+	  -ms-flex-pack: start;
+	  justify-content: flex-start;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	}
+
+
+	/*Prateleira*/
+
+	#mainContent  #content{
+		margin: 0px;
+	}
+
+	div.prateleira ul{
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;
+	  padding: 0px;
+	}
+
+	div.prateleira ul li{
+	width: 100%;
+	overflow: hidden;
+	}
+
+	div.productImage a img{	
+	padding: 0px;
+
+	width: 50%;
+	height: 50%;
+	overflow: hidden;
+	}
+
+	div.productImage{
+	margin: 0px auto;
+	width: auto;
+	height: auto;
+	}
+
+	div.div-footer{
+		width: 100%;
+		overflow: hidden;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;
+
+	}
+
+	div#all #floatingChat{
+		display: none;
+	}
+
+	ul.thumbs, div.share{
+		display: none;
+	}
+
+	div#show{
+		width: 80%;
+		margin: 20px auto;
+	}
+
+	.hproduct{
+		margin: 20px 0px;
+	}
+
+
+
+	div.logobar{
+		width: 100%;	
+		-webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;	
+	}
+
+	div.center-float{
+		width: 100%;
+		-webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;
+	}
+
+	div#bottomFooter .wrapper{
+	 -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;
+	}
+
+	div#bottomFooter .wrapper div{
+		width: 90%;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+
+	ul.menu{
+		height: auto;
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;
+	}
+
+	ul.menu li a{
+		padding: 5px 0px;
+
+	}
+
+	div.product-Content{
+	  -webkit-box-orient: vertical;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: column;
+	  -ms-flex-direction: column;
+	  flex-direction: column;
+	  -webkit-box-pack: center;
+	  -webkit-justify-content: center;
+	  -ms-flex-pack: center;
+	  justify-content: center;
+	  -webkit-box-align: center;
+	  -webkit-align-items: center;
+	  -ms-flex-align: center;
+	  align-items: center;
+	  overflow: hidden;
+	}
+
+	/*PAGINA PRODUTO*/
+
+	em.valor-de,
+	em.valor-dividido,
+	div.productPrice .descricao-preco .valor-dividido span,
+	label.skuBestInstallmentValue{
+		font-size: 20px;
+	}
+
+	strong.skuBestPrice{
+		font-size: 30px;
+	}
+
+	div.freteCalc{
+		width: 90%;
+	}
+
+	em.valor-por{
+		font-size: 20px;
+	}
+
+	div.content fieldset{
+		display: block;
+		text-align: center;
+	}
+
+	div.other-payment-method ul{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
 		flex-direction: column;
-    }
-    .destaqueNav h3 {
-        margin-bottom: 10px;
-        text-align: left;
-        line-height: 26px;
-        color: rgb(0, 0, 0);
-        font-family: 'gotham_htf_bold', sans-serif;
-        font-size: 20px;
-    }
-    div#content {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-    p {
-        text-align: center;
-    }
-    
-    .destaqueNav a{
-        margin: 0 auto;
-        max-width: 100%;
-        border: none;    
-        
-    }
-    
-    div.dpLinks{
-        max-width: 100%;
-        height: auto;
-        background-color:         
-    }
-    
-    div.destaqueNav.bottom .text{
-        max-width: 100%;
-        height: 250px;
-        padding: 0px;
-        margin: 0 auto;
-        text-align: center;
-        align-items: center;
-        vertical-align: none;
-        padding-top: 25px;
-    }
-    
-    div.destaqueNav.bottom .text h3{
-        text-align: center;
-    }
-    
-    
-    
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin: 0px auto; 
+		width: 90%;
+		height: auto;
+	}
+
+	p.twoCards{
+		text-align: center;
+	}
+
+	div#mainContent #caracteristicas{
+		width: 90%;
+		padding: 0px;
+	}
+
+	th.name-field.Informacoes{
+		font-size: 15px;
+	}
+
+	div#caracteristicas th{
+	}
+
+	div#caracteristicas tr{
+		width: 100%;
+	}
+
+	p.preco-a-vista{
+		text-align: center;
+	}
+
+
+
+}
+
+
+
+
+
+@media (max-width: 900px){
+
+	/*Produtos*/
+	div#mainContent{
+		width: 95%;
+		margin: 0px auto;
+	}
+
+	div.productInfo .topo h1{
+		font-size: 30px;
+	}
+
+	em.valor-de{
+		font-size: 18px;
+	}
+
+	.btnEspiar{
+		display: none;
+	}
+
+	h3.productName a{
+		font-size: 20px;
+	}
+
+	span.oldPrice{
+		font-size: 14px;
+	}
+
+	span.newPrice{
+		font-size: 18px; 
+	}
+
+	a.detalhes{
+		width: 150px;
+		font-size: 12px;
+	}
+
+
+
+	/*Departamento*/
+
+	#content .prateleira ul{
+		display: -webkit-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+		  display: flex;
+		  -webkit-box-orient: vertical;
+		  -webkit-box-direction: normal;
+		  -webkit-flex-direction: column;
+		  -ms-flex-direction: column;
+		  flex-direction: column;
+		  -webkit-box-align: center;
+		  -webkit-align-items: center;
+		  -ms-flex-align: center;
+		  align-items: center;
+	}
+}
+
+@media (max-width: 1200px){
+
+	/*Header*/
+	.navbar .menu-departamento{
+		width: 95%;
+		display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display: flex;
+	  -webkit-box-orient: horizontal;
+	  -webkit-box-direction: normal;
+	  -webkit-flex-direction: row;
+	  -ms-flex-direction: row;
+	  flex-direction: row;
+	  -webkit-justify-content: space-around;
+	  -ms-flex-pack: distribute;
+	  justify-content: space-around;
+	  -webkit-box-align: start;
+	  -webkit-align-items: flex-start;
+	  -ms-flex-align: start;
+	  align-items: flex-start;
+	}
+
+	.navbar .menu-departamento h3{
+		width: 15%;		
+	  	background-color: #2080cf;
+	}
+
+	/*Pagina de Produto*/
+	
+	#all .wrapper{
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+	}
+
+	div.productImage{
+		width: 60%;
+		height: auto;
+		padding: 0px;
+	}
+
+	h3.productName a{
+		font-size: 25px;
+	}
+
+	em.valor-de,
+	div.productPrice .descricao-preco .valor-dividido span,
+	label.skuBestInstallmentValue,
+	em.valor-dividido{
+		font-size: 20px;
+	}
+
+	div.freteCalc{
+		width: 100%;
+	}
+
+	a.detalhes{
+		font-size: 12px;
+		width: 120px;
+		padding: 6px;
+	}
+
+	ul.menu{
+		width: 90%;
+		margin: 0px auto;
+	}
+
+	div.logobar{
+		width: 90%;
+	}
+
+	div.center-float{
+		width: 80%;
+	}
+
+	div.div-footer{
+		width: 95%;
+	}
+
+	iframe{
+		display: none;
+	}
+
+	div#bottomFooter .wrapper{
+		width: 95%;
+	}
+
+	div#credits .wrapper{
+		width: 90%;
+		margin: 0px auto;
+	}
+
+
+
+	/*Prateleira Home*/
+	#sidebar h2,
+	.navigation .menu-departamento h3,
+	.navigation .menu-departamento h5{
+		font-size: 18px;
+	}
+
+	#sidebar a,
+	.navigation .menu-departamento h4 a{
+		font-size: 13px; 
+	}
+
+	h2.productName a{
+		font-size: 20px;
+	}
+
+	/*Departamentos*/
+	body.categoria .search-multiple-navigator{
+		padding: 0px;
+	}
+
+	a.thickbox,
+	div.avista p{
+		font-size: 13px;
+	}
+
+}
+
+@media (max-width: 1500px){
+
+
+	/*Produtos*/
+	div#mainContent{
+		width: 95%;
+		margin: 0px auto;
+	}
+
+	div.productInfo .topo h1{
+		font-size: 35px; 
+	}
+
+	div#resenha{
+		padding: 0px;
+	}
+
+	#all .wrapper{
+		width: 100%;
+	}
+
+	div#mainContent #caracteristicas{
+		padding-left: 50px;
+	}
+
+	div#resenha{
+		padding-right: 50px;
+	}
+
+	#resenha .avalie-produto{
+		text-align: center;
+		margin: 0px auto;
+		float: none;
+		display: block;
+	}
+
+	.rating-avalie-wrapper{
+		margin-left: 50px;
+	}
+
+	div.avaliacao{
+		 display: -webkit-box;
+		  display: -webkit-flex;
+		  display: -ms-flexbox;
+		  display: flex;
+		  -webkit-box-orient: vertical;
+		  -webkit-box-direction: normal;
+		  -webkit-flex-direction: column;
+		  -ms-flex-direction: column;
+		  flex-direction: column;
+		  -webkit-box-align: center;
+		  -webkit-align-items: center;
+		  -ms-flex-align: center;
+		  align-items: center;
+	}
+
+	#resenha #ulPubliqueResenha{
+		float: none;
+		margin: 0px auto;
+	}
+
+	#lnkPubliqueResenha{
+		font: normal 20px 'Open Sans', sans-serif;
+		color: #d74138;
+		display: block;
+		margin: 0px auto;
+
+	}
 }
